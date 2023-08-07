@@ -1,0 +1,9 @@
+model = GridSearchCV(
+    bagging,
+    param,
+    cv=kfold,
+    refit=True,
+    n_jobs=1,
+    verbose=1,
+    pre_dispatche=2
+)
